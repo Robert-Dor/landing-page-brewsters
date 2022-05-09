@@ -1,0 +1,101 @@
+// About Section
+#container {
+    background: #d39e4a; /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #d39e4a 0%, #8c5517 17%, #000000 41%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #d39e4a 0%,#8c5517 17%,#000000 41%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #d39e4a 0%,#8c5517 17%,#000000 41%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 50px 0;
+    #history {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            font-size: 5rem;
+            color: lightgrey;
+        }
+        h3 {
+            font-size: 3.6rem;
+            color: #8c5517;
+            font-weight: 600;
+            margin-bottom: 4rem;
+            text-align: center;
+        }
+        .history-text {
+            padding: 80px 200px 20px;
+            background: lightgrey;
+            p {
+                font-size: 1.6rem;
+                font-weight: 500;
+                color: #000000;
+                padding-bottom: 60px;
+                line-height: 1.4;
+            }
+        }   
+    }
+    #our-future {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        .brewsters-sign {
+            overflow: hidden;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;  
+        }
+        .modern-history {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 100px;
+            img {
+                padding: 30px 0;
+            }
+            h2 {
+                color: #ffe761;
+                font-size: 4rem;
+            }
+            p {
+                line-height: 1.4;
+                font-size: 1.6rem;
+                color: #d39e4a;
+                width: 75%;
+                padding-bottom: 1rem;
+            } 
+        } 
+    }
+    .home-link {
+        width: 100%;
+        font-size: 1.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #ffe761;
+        font-weight: 700;
+        padding-top: 50px;
+        span {
+            margin-right: 20px;
+        }
+        .circle-right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            background: #d39e4a; /* Old browsers */
+            background: -moz-linear-gradient(-45deg, #d39e4a 0%, #8c5517 73%, #8c5517 73%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(-45deg, #d39e4a 0%,#8c5517 73%,#8c5517 73%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(135deg, #d39e4a 0%,#8c5517 73%,#8c5517 73%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            .fa-chevron-right {
+                color: #000000;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
